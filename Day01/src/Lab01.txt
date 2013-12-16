@@ -1,0 +1,19 @@
+Generate a random number between 1 and 100. The user will play till he guesses the number correct.
+
+*****************************************
+Example: (If the random number is 67)
+
+Enter a number between 1 and 100
+
+50
+Aim Higher
+75
+Aim Lower
+65
+Aim Higher
+67
+You have got it in 4 attempts
+******************************************
+You can use 
+readLine().toInt()
+new Random().nextInt(100) 
