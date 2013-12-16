@@ -1,0 +1,4 @@
+-->Create Lab02.scala
+-->Define +,-,* and / functions
+-->These functions accept 2 numbers as tuple argument and return a tuple as output. 
+For example the tuple output will be like this for an addition of numbers 2 and 5; ("+",Array(2,5),7) 
