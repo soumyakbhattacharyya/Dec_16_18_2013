@@ -8,8 +8,7 @@ object BasicCollections {
     //println(langs(4)) ERROR
     
     langs.keys.foreach {key=>println(langs(key))}
-    
-    
+    	
     val set1 = Set("C#")
    // set1 += "Java"
   //  set1 += "F#"
