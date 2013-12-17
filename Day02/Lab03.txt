@@ -1,0 +1,11 @@
+Create a method math that will accept two arguments
+limit (indicates the upper range of a loop)
+logic
+and return a Mutable Set as output
+
+Call math to do the following 
+1) Get the list of odd numbers with limit as 20
+2) Get the list of event numbers with limit as 25
+3) Get the list of square of the numbers with limit as 10 
+4) Get the list of square of odd numbers with limit as 20
+5) Get the list of doubled-up even numbers with limit as 20
