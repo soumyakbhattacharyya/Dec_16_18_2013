@@ -17,3 +17,5 @@ that generates an XML data and prints it on the console.
   </Book>
   ...
 </Catalog>
+If you want to be more adventurous you can save the XML contents to Books.xml.
+Refer to scala.xml.XML class in the documentation http://www.scala-lang.org/api/current/#scala.xml.Elem
