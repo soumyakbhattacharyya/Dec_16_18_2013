@@ -1,0 +1,13 @@
+You have the following list of numbers
+List(1, 31, 12, 53, 75, 88,90,56,23,566,9,577,308,10,5)
+
+Implement the following using Scala List's built-in functions
+
+1)Find the last element of a list
+2)Find the last but one element of a list
+3)Find the number of elements of a list
+4)Find out whether a list is a palindrome
+5)Split a list into two parts for a given number x. If x is 3 then the output
+will be List(1,31,12) and List(75,88 ...)
+6)
+ 
