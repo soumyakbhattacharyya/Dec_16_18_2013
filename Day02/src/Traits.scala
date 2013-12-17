@@ -11,17 +11,17 @@ trait NightWatchman  {
   def sleep = println("Feeling sleepy all the time")
 }
 abstract class Human
-class Developer
+class Developer2
 object Traits {
   def main(args: Array[String]): Unit = {
     val worker2:CraveForMoney = new Worker("Sam")
 //    worker2.eat
     
-    val dev2 = new Developer
+    val dev2 = new Developer2
     			with NightWatchman
     			with Hunger
     
-    val dev1 = new Developer
+    val dev1 = new Developer2
     			with Hunger
     			with CraveForMoney
     			with Dream
