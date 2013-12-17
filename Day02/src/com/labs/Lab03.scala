@@ -20,9 +20,9 @@ object Lab03 {
     result -= 0
 	result 
   }
-  def math(limit:Int,
-      condition:Int=>Boolean,
-      process:Int=>Int = {x:Int=>x}):Set[Int] = {
+  def math(limit:Int)
+      (condition:Int=>Boolean)
+      (process:Int=>Int = {x:Int=>x}):Set[Int] = {
     var result:Set[Int] = Set()
     for(i<-1 to limit){
       if(condition(i))
@@ -31,8 +31,15 @@ object Lab03 {
     result
   }
   def main(args: Array[String]): Unit = {
-    math(10, {x:Int=>x%2==0})//All even numbers
-    math(10, {x:Int=>x%2==0}, {x:Int=>x*x})//Square of all even numbers
+    math(10) {x:Int => x%2 ==0} {x:Int => x*x}//Square of all even numbers
+    
+    
+    
+    
+    
+    
+    //math(10, {x:Int=>x%2==0})//All even numbers
+    //math(10, {x:Int=>x%2==0}, {x:Int=>x*x})//Square of all even numbers
     
     
     
