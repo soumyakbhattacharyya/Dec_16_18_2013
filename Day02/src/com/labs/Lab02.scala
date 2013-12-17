@@ -8,7 +8,7 @@ class BookStore {
       "310-483-480"->("Programming in Scala",1200),
       "311-483-480"->("Practical Ext JS 4",1800),
       "313-483-480"->("Programming Groovy",2800))
-  def getBooks = {
+  def getBooks = 
     books.map {book =>
       				val isbn = book._1
       				val title = book._2._1
@@ -18,7 +18,7 @@ class BookStore {
     						<Price>{price}</Price>
     				</Book>
     			}
-  }    
+      
   def toXML:Elem = <Catalog>{getBooks}</Catalog>
 }
 object Lab02 {
