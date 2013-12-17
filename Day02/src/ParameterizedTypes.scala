@@ -36,6 +36,21 @@ object ParameterizedTypes {
   }
   
   def main(args: Array[String]): Unit = {
+    
+    val person = ("Sam",12)
+    println(person._1 + ", " + person._2)
+    
+    val (name,age) = ("Sam",12)
+    println(name + ", " + age)
+    
+    
+    
+    
+    
+    
+    
+    
+    
     printMaps(Map("A"->1,"B"->2))
     
     printCollection(List("A","V","C"))
