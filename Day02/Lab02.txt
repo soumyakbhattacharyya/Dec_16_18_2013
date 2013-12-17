@@ -1,0 +1,19 @@
+You have a Map of book information as given below.
+
+"309-483-480"->("Spring 3.0 Black Book",699)
+"310-483-480"->("Programming in Scala",1200)
+"311-483-480"->("Practical Ext JS 4",1800)
+"313-483-480"->("Programming Groovy",2800)
+
+
+-->Create a Book Store that maintains a collection of these 
+books as defined above.
+-->The Book store has a method toXML 
+that generates an XML data and prints it on the console. 
+<Catalog>
+  <Book isbn="309-483-480">
+  		<Title>Spring 3.0 Black Book</Title>
+  		<Price>Rs. 699</Price>
+  </Book>
+  ...
+</Catalog>
