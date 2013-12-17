@@ -3,13 +3,26 @@ object Functions1 {
     println(lunch(num))
   }
   
-  def square2(output:Int=>Unit,num:Int,lunch:Int=>Int):Unit = {
-    output(lunch(num))
+  def square2(
+      output:Int=>Unit,
+      input:Unit=>Int,
+      lunch:Int=>Int):Unit = {
+    
+    output(lunch(input()))
   }
-  
- 
   def main(args: Array[String]): Unit = {
-    square2({x:Int=>println(x)},56,{x:Int=>x*x})
+    args.foreach {item=>println(item)}
+    
+    square2(
+	    		{ x:Int => println(s"The result is ${x}") },
+	    		{ Unit => 57 },
+	    		{ x:Int => x*x }
+    	   )
+    square2(
+	    		{ x:Int => println(x) },
+	    		{ Unit => Console.readInt },
+	    		{ x:Int => x*x }
+    	   )
     
     
     
