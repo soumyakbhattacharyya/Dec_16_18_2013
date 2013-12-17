@@ -1,0 +1,20 @@
+Create a class Account that has the following attributes
+ 	firstname,lastname,accountnumber,balance	
+The class has two methods
+ 	deposit that takes an amount and adds it to the balance
+ 	withdraw that takes an amount and reduces the balance
+
+Create a Class SavingsAccount that extends Account
+ 	The default initial balance for savings account  is 10000.
+ 	It has an withdraw method that charges an interest of 1% whenever you  try 	to withdraw more than 5000.
+
+Create a Savings Account object with the following values
+	account  number 1221211
+	first name	Sam
+	last name	Thomas
+
+	deposit 15000
+	withdraw 2000
+	withdraw 5000
+	
+	Print the balance
