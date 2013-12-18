@@ -1,0 +1,8 @@
+@(cars: List[Car])
+<html>
+	<body>
+		@for(car <- cars){
+			<h2>@car.model, <i>@car.color</i></h2>
+		}
+	</body>
+</html>
